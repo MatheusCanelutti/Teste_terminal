@@ -1,4 +1,0 @@
-comandos
-
-git init - inicia o projeto git
-git status - verifica quais dados estao no git

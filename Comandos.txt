@@ -1,0 +1,16 @@
+comandos
+1- botao direito na pasta que deseja adicionar e git bash here
+
+git init - inicia o projeto git
+git status - verifica quais dados estao no git/ e quais nao estao
+git add "nome" - adicionar arquivo
+git add . - adiciona todos os arquivos de uma vez
+git commit -m "alterando item" - -m significa mensagem, alterar algo
+
+
+Comandos para subir projeto
+
+git push - enviar projeto/ mas precisa mostrar o local
+
+
+
