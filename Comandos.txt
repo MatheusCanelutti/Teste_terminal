@@ -6,11 +6,24 @@ git status - verifica quais dados estao no git/ e quais nao estao
 git add "nome" - adicionar arquivo
 git add . - adiciona todos os arquivos de uma vez
 git commit -m "alterando item" - -m significa mensagem, alterar algo
+criar repositorio no github e pegar o link dele
+git push - enviar projeto/ mas precisa mostrar o local do link
 
 
-Comandos para subir projeto
+ver historico de versoes
 
-git push - enviar projeto/ mas precisa mostrar o local
+git reflog - mostra os commits
+git reset --hard + id do reflog da versao que deseja
+
+o que são branchs
+
+branch - cada branch um local para cada versão do codigo
+git branch - mostra as branchs disponiveis
+git branch + "nome" - cria outra branch
+git checkout staging - muda para a outra branch/ um local paralelo para trabalhar em atualizações
+
+
+
 
 
 
