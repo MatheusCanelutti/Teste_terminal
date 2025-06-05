@@ -1,6 +1,7 @@
 comandos
 1- botao direito na pasta que deseja adicionar e git bash here
 
+subir projeto
 git init - inicia o projeto git
 git status - verifica quais dados estao no git/ e quais nao estao
 git add "nome" - adicionar arquivo
@@ -8,21 +9,39 @@ git add . - adiciona todos os arquivos de uma vez
 git commit -m "alterando item" - -m significa mensagem, alterar algo
 criar repositorio no github e pegar o link dele
 git push - enviar projeto/ mas precisa mostrar o local do link
+ git push --set-upstream https://github.com/MatheusCanelutti/site_teste master - aparece ao escrever git push
 
 
 ver historico de versoes
-
 git reflog - mostra os commits
-git reset --hard + id do reflog da versao que deseja
+git reset --hard + id do reflog da versao que deseja retornar
 
-o que são branchs
-
+Branchs
 branch - cada branch um local para cada versão do codigo
+branch master fica em verde - a principal
 git branch - mostra as branchs disponiveis
 git branch + "nome" - cria outra branch
-git checkout staging - muda para a outra branch/ um local paralelo para trabalhar em atualizações
+git checkout stading - muda para a outra branch/ um local paralelo para trabalhar em atualizações
+
+EXTRA: git checkout -b "nome da branch" master - cria uma nova branch com base na master
+
+juntar codigo de duas branchs
+
+git checkout master - 1º mudar para a branch principal
+git pull -antes para ver se está atualizado a versão que irei juntar
+git merge stading
+git push - e alteração feita
 
 
+pull request
+
+# é caso voce queria unir o codigo mas precise da autroização de outro programador
+
+git ignore 
+
+serve para ignorar algum arquivo que vc não queira mandar 
+
+touch .gitignore - comando - criara uma pasta no projeto e dentro dela vc coloca o nome do arquivo que não deseja mandar
 
 
 
